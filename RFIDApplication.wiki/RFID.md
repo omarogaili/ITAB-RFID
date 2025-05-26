@@ -1,0 +1,1 @@
+Ta den bästa vinkel på RFID först och sen kör testet
