@@ -1,0 +1,47 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #333;
+}
+.btnContainer{
+    display: flex;
+    padding: 1em;
+}
+.btn{
+    cursor: pointer;
+    border-radius: 35px;
+    font-size: small;
+    display: block;
+}
+.selectedButton{
+    display: flex;
+    gap: 1em;
+    font-size: small;
+}
+.headerDisplay{
+    display: flex;
+    font-size: 20px;
+}
+@media screen and (max-width: 700px) {
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    } 
+    .btn{
+        font-size: 14px;
+    }
+    .selectedButton{
+        display: flex;
+        gap: 1em;
+        font-size: 20px;
+    }
+    .headerDisplay{
+        display: flex;
+        font-size: 20px;
+    }
+    
+}

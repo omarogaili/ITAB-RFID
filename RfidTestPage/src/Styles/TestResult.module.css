@@ -1,0 +1,46 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.ImageContainer {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.Image {
+    width: 100%;
+    display: block;
+}
+.StopRecording{
+    border-radius: 50px;
+    background-color: red;
+    gap: 1em;
+}
+.testsetUp{
+    display: flex;
+    gap: 1em;
+    
+}
+.DataContainer{
+    position: absolute;
+    top: 700px;
+    bottom: 200px;
+
+    
+}
+
+@media screen and (max-width: 700px) {
+    .ImageContainer {
+        width: 100%;
+        display: inline-block;
+        overflow: hidden;
+    }
+    .Image {
+        display: inline-block;
+        overflow: hidden;
+    }
+}

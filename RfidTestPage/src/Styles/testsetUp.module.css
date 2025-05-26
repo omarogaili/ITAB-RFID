@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btnContainer{
+    padding: 20px;
+    display: flex;
+    gap: 2em;
+}
+.btn{
+    font-size: 30px;
+}
+.top{
+    transform: rotate(2.342rad);
+}
+.left{
+    transform: rotate(3.871rad);
+}
+.right{
+    transform: rotate(0.871rad);
+}
+.bottom{
+    transform: rotate(5.471rad);
+}
+.ProductContainer{
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+}
+.ProductContainer input{
+    width: 86%;
+    padding: 1em;
+    font-size: 16px;
+}
+.btnSubmit{
+    background-color: rgb(0, 140, 255);
+}
+.btnSubmit:hover{
+    outline: 4px auto -webkit-focus-ring-color;
+
+}
+.headerDisplay{
+    font-size: 25px;
+    padding : 1em;
+    color: rgb(141, 109, 2);
+}
+.headerDisplayTransport{
+    font-size: 25px;
+    padding : 1em;
+    color: rgba(13, 80, 204, 0.979);
+}
+
+@media screen and (max-width: 700px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        margin: 2em;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}

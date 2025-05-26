@@ -1,0 +1,8 @@
+aiohttp
+aiohttp-cors
+websockets
+psutil
+mysql-connector-python
+paho-mqtt
+pydantic
+opencv-contrib-python

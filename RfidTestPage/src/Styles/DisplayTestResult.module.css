@@ -1,0 +1,34 @@
+.MainContainer{
+    padding: 2em;
+    margin: 2em;
+    position: relative;
+    right: 600px;   
+    bottom: 630px;
+    margin: 5em;
+    padding: 1em;
+
+}
+.ImageContainer{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    padding: 10px;
+}
+@media screen and (max-width: 768px){
+    .MainContainer{
+        padding: 2em;
+        margin: 2em;
+        position: relative;
+        right: 0px;   
+        bottom: 0px;
+        margin: 0em;
+        padding: 2em;
+    }
+    .ImageContainer{
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+    }
+}
