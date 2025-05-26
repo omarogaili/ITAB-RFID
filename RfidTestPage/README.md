@@ -17,7 +17,7 @@ This is the frontend application for the RFID Test System. It provides a user in
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/omarogaili/ITAB-RFID.git
 cd RFIDApp/RfidTestPage
 ```
 
