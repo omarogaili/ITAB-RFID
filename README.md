@@ -128,6 +128,3 @@ Alternatively, you can run the entire application using the provided script:
    - Ensure MySQL is running and the credentials in `ProductsInformation.py` are correct.
 
 ---
-
-## License
-This project is licensed under the [MIT License](LICENSE).
