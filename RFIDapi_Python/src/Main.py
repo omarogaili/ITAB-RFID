@@ -104,7 +104,7 @@ def detect_aruco_markers(image):
 async def send_image_data_to_clients():
     image_url = "http://192.168.30.81/api/v5/singlesensor/blocked_space/images/live.jpg"
     username = "admin"
-    password = "Itab4Sesame" ## Replace with your actual password
+    password = "*******" ## Replace with your actual password
     image_saved= False
     while not stop_script:
         try:
