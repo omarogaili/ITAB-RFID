@@ -102,8 +102,8 @@ def detect_aruco_markers(image):
     return detected_data
 
 async def send_image_data_to_clients():
-    image_url = "http://192.168.30.81/api/v5/singlesensor/blocked_space/images/live.jpg"
-    username = "admin"
+    image_url = "http://********IP/api/v5/singlesensor/blocked_space/images/live.jpg" ## Replace with your actual IP
+    username = "*****"  ## Replace with your actual userName
     password = "*******" ## Replace with your actual password
     image_saved= False
     while not stop_script:
